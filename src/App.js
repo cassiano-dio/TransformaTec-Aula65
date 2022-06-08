@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import UseEffectClass from './components/UseEffectClass';
+import UseEffectFunction from './components/UseEffectFunction';
+import FetchAPIData from './components/api/FetchAPIData';
+import TodoList from './components/itemsList/TodoList'
+import TodoListCallback from './components/itemsList/TodoListCallback'
+import CallbackMemo from './components/CallbackMemo';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <UseEffectClass />
+      <UseEffectFunction />
+      <FetchAPIData /> */}
+      {/* <TodoList /> */}
+      {/* <TodoListCallback /> */}
+      <CallbackMemo />
+
+
     </div>
   );
 }
